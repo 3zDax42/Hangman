@@ -27,9 +27,9 @@ int main()
 		char guess;
 		cin >> guess;
 
-		string oldGuessedWord = GuessedWord;
+		string oldGuessedWord = " ";
 		GuessedWord = ProcessGuess(guess, word, GuessedWord);
-
+		oldGuessedWord = GuessedWord;
 		if (GuessedWord == oldGuessedWord) {
 			cout << "You guessed that letter already >.< \n";
 		}
