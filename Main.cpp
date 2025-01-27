@@ -48,7 +48,7 @@ int main()
 
 void Display_Hangman() 
 {
-	cout << "/n"; // other option for endl;
+	cout << "\n"; // other option for endl;
 	switch (Misses)
 	{
 	case 0:
